@@ -69,7 +69,7 @@ body {
 
 body {
   background: #050505;
-  font-family: "Lora", serif;
+  font-family: "Poppins", serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -77,6 +77,11 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
+}
+
+.text-white.enlarge {
+  color: white;
+  font-size: 4.5rem
 }
 
 /* ------------------------------------------------------------------- 
@@ -1497,12 +1502,13 @@ input::-moz-focus-inner {
 }
 
 .section-desc {
-  font-family: "Poppins light", serif;
+  font-family: "Poppins", serif;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.259;
   letter-spacing: -0.05rem;
   color: #000000;
+  font-style: italic;
 }
 
 .section-desc.two {
@@ -1511,7 +1517,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Poppins", serif;
   font-size: 3.6rem;
   font-weight: 500;
   line-height: 1.222;
@@ -2582,7 +2588,7 @@ input::-moz-focus-inner {
   margin-bottom: 4.8rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 8rem;
+  font-size: 2.4rem;
   line-height: 1;
   color: #cf1767;
 }
@@ -2597,7 +2603,7 @@ input::-moz-focus-inner {
   }
 
   .services-list .item-service__content::before {
-    font-size: 7.2rem;
+    font-size: 2.4rem;
   }
 
 }
@@ -2608,7 +2614,7 @@ input::-moz-focus-inner {
   }
 
   .services-list .item-service__content::before {
-    font-size: 6.8rem;
+    font-size: 2.4rem;
   }
 
 }
@@ -2630,7 +2636,7 @@ input::-moz-focus-inner {
   }
 
   .services-list .item-service__content::before {
-    font-size: 5.4rem;
+    font-size: 2.4rem;
   }
 
 }
@@ -2648,7 +2654,7 @@ input::-moz-focus-inner {
   }
 
   .services-list .item-service__content::before {
-    font-size: 4.8rem;
+    font-size: 2.4rem;
   }
 
 }
@@ -3298,10 +3304,10 @@ input::-moz-focus-inner {
 
 .contact-email {
   font-family: "Roboto", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1;
-  margin: 5.6rem 0 8rem;
+  /* margin: 5.6rem 0 8rem; */
 }
 
 .contact-infos {
@@ -3368,7 +3374,7 @@ input::-moz-focus-inner {
 * ------------------------------------------------------------------- */
 @media screen and (max-width:1300px) {
   .contact-email {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact-infos {
@@ -3383,7 +3389,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:1200px) {
   .contact-email {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact-infos {
@@ -3394,7 +3400,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:1024px) {
   .contact-email {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact-infos {
@@ -3413,7 +3419,7 @@ input::-moz-focus-inner {
   }
 
   .contact-email {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact-infos {
